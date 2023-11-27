@@ -39,7 +39,7 @@
             <li class="nav-item "><a href="/" class="nav-link text-dark">Hub</a></li>
             <li class="nav-item "><a href="https://github.com/ExtevaXT/Project.unity" class="nav-link text-dark">Project</a></li>
             <li class="nav-item "><a href="#" class="nav-link active bg-dark" aria-current="page">NWMC</a></li>
-            <li class="nav-item "><a href="/adventure" class="nav-link text-dark"><span>Adventure</span></a></li>
+            <li class="nav-item "><a href="https://tfc.external.su" class="nav-link text-dark"><span>Adventure</span></a></li>
             <li class="nav-item "><a href="#" class="nav-link text-dark later"><span>Magic</span></a></li>
         </ul>
     </header>
@@ -47,8 +47,8 @@
         <img class="d-block mx-auto mb-4" src="logo.png" alt="" height="280">
         <h1 class="display-5 fw-bold">Ninja World MC</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead">Some <a class="text-decoration-none" href="https://github.com/ExtevaXT/NWMC-Reborn">project</a> made in 2019</p>
-            <p class="lead">Remake will be available on 1.12 or 1.16.5 at {ip:port}</p>
+            <p class="lead">Some <a class="text-decoration-none" href="https://github.com/ExtevaXT/NWMC-Reborn">project</a> made in 2019 | IP: nwmc.external.su</p>
+            <p class="lead desc">Сервер пока запустил, не уверен что там можно играть, но плагины все целые, нужно много править, конфигы написаны очень давно</p>
             <p class="lead">Maybe there will be more info about this in <a class="text-decoration-none" href="https://discord.gg/JMhd6VtVv5">Discord</a></p>
         </div>
     </div>
@@ -66,5 +66,11 @@
         </ul>
     </footer>
 </div>
+<script>
+          var l = navigator.language || navigator.userLanguage;
+      if(!l.includes('ru')) {
+        document.querySelector('.desc').innerHTML = 'Server is running for now, I will be working on remake. Careful, everything in russian there, currently translated few basic jutsu'
+      }
+</script>
 </body>
 </html>
